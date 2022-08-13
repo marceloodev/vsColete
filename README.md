@@ -5,3 +5,5 @@
 > Framework: Creative
 
 > Developed by Vieira`s Store
+
+> Copie o codigo colocado dentro do arquivo code.lua e cole em algum server.lua do seu servidor.
