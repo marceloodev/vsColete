@@ -1,6 +1,6 @@
 # vsColete
 
-> Um simples codigo de dar colete para voce mesmo ou um player utilizando o /setcolete ou /setcolete id
+> Ao dar /setcolete seu colete será setado para 100%, claro se voce for STAFF né? E tambem temos a opção /setcolete id que irá dar colete para o id solicitado.
 
 > Framework: Creative
 
