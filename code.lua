@@ -17,13 +17,15 @@ RegisterCommand("colete",function(source,args,rawCommand)
 				local nuser_id = parseInt(args[1])
 				local otherPlayer = vRP.userSource(nuser_id)
 				if otherPlayer then
-					vRPC.setArmour(otherPlayer,100)
+					vRP.setArmour(otherPlayer,100)
+					TriggerClientEvent("Notify",source,"verde","Você deu colete para o ID: "..nuser_id.." ",5000)
 					TriggerClientEvent("resetBleeding",source)
 					TriggerClientEvent("resetDiagnostic",source)
 					SendWebhookMessage(logcolete,"```prolog\n[ID]: " ..user_id.. " [DEU COLETE] para o ID: "..nuser_id.." "..os.date("\n[Data]: %d/%m/%Y [Hora]: %H:%M:%S").." \r```")
 				end
 			else
-				vRPC.setArmour(source,100)
+				vRP.setArmour(source,100)
+				TriggerClientEvent("Notify",source,"verde","Você deu colete para si mesmo.",5000)
 				TriggerClientEvent("resetHandcuff",source)
 				TriggerClientEvent("resetBleeding",source)
 				TriggerClientEvent("resetDiagnostic",source)
