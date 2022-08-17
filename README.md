@@ -1,6 +1,6 @@
 # vsColete
 
-> Ao dar /setcolete seu colete será setado para 100%, claro se voce for STAFF né? E tambem temos a opção /setcolete id que irá dar colete para o id solicitado.
+> Ao dar /colete seu colete será setado para 100%, claro se voce for STAFF né? E tambem temos a opção /colete id que irá dar colete para o id solicitado.
 
 > Framework: Creative
 
