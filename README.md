@@ -2,7 +2,7 @@
 
 > Ao dar /colete seu colete será setado para 100%, claro se voce for STAFF né? E tambem temos a opção /colete id que irá dar colete para o id solicitado.
 
-> Framework: Creative
+> Framework: Creative V5
 
 > Developed by: Vieira's Store
 
